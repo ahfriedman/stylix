@@ -39,6 +39,11 @@ in
           in
           {
             inherit background;
+            inherit background-alt;
+            inherit foreground;
+            inherit primary;
+            inherit alert;
+            inherit disabled;
             urgent = {
               inherit background indicator text;
               border = urgent;
