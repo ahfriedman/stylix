@@ -31,6 +31,11 @@ in
           let
             background = base00;
             indicator = base0B;
+            background-alt = base01;
+            foreground = base05;
+            primary = base0B;
+            alert = base08;
+            disabled = base06;
           in
           {
             inherit background;
